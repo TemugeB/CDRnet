@@ -28,6 +28,7 @@ The network was trained on a GTX1080Ti. It will take about 9 to 12 hours of trai
 **Note:**  
 Subject9 has some incorrect labels that will significantly hinder network training. Make sure to remove these wrong labeled data. Please check the S9_training_vids.txt for the list of videos that can be used for training.
 
+**References**:  
 1. Edoardo Remelli, Shangchen Han, Sina Honari, Pascal Fua, Robert Wang. Lightweight Multi-View 3D Pose Estimation through Camera-Disentangled Representation. 	arXiv:2004.02186
 
 2. Catalin Ionescu, Dragos Papava, Vlad Olaru and Cristian Sminchisescu, Human3.6M: Large Scale Datasets and Predictive Methods for 3D Human Sensing in Natural Environments, IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 36, No. 7, July 2014
