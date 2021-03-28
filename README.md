@@ -15,14 +15,14 @@ matplotlib
 scipy  
 The requirements can all be installed through pip.
 
-1. **How-to**
+**How-to**  
 -Clone the repository.  
 -Download Human3.6M data.  
 -Place video data into Data folder and label data into Labels folder.  
 -Download the trained model if you want to test.  
 -Run the train_and_test.py script. Choose train or test in the script.  
 
-2. **Training**
+**Training**  
 The network was trained on a GTX1080Ti. It will take about 9 to 12 hours of training. You should be able to get the loss value down to 2.4~2.5 MSE. The differentiable DLT layer descirbed in the paper is included but not used to calculate a loss. I found serious instability issues in using the layer. But the code is included if you want to use it. Simply replace _dummy_loss with _DLT_loss in the model.compile() call. 
 
 Note:
