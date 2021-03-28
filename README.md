@@ -4,7 +4,7 @@
 ![Alt text](imgs/3d_prediction.png?raw=true "3d_predictions")
 
 This is a Tensorflow implementation of the paper "Lightweight Multi-View 3D Pose Estimation through Camera-Disentangled Representation" by Remelli, et al[1]. 
-The network is trained on the Human3.6M data set[2].
+The network is trained on the Human3.6M data set[2]. I'm not part of the authors and this implementation is an independent implementation.  
 This implementation is based on the paper only so some details are different from the author's intention. Since the authors did not release code with the paper, I needed to write this implementation for some testing work. As such, some parts are a bit rough. But the code will let you train end to end. I've also included testing code as well as a trained model. However, you will need to download the Human3.6M data. 
 
 Requirements:  
