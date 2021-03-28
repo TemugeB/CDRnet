@@ -8,11 +8,11 @@ The network is trained on the Human3.6M data set[2].
 This implementation is based on the paper only so some details are different from the author's intention. Since the authors did not release code with the paper, I needed to write this implementation for some testing work. As such, some parts are a bit rough. But the code will let you train end to end. I've also included testing code as well as a trained model. However, you will need to download the Human3.6M data. 
 
 Requirements:
-Tensorflow 2.4.1
-cdflib
-opencv
-matplotlib
-scipy
+Tensorflow 2.4.1  
+cdflib  
+opencv  
+matplotlib  
+scipy  
 The requirements can all be installed through pip.
 
 1. **How-to**
