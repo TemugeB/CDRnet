@@ -25,7 +25,7 @@ The requirements can all be installed through pip.
 **Training**  
 The network was trained on a GTX1080Ti. It will take about 9 to 12 hours of training. You should be able to get the loss value down to 2.4~2.5 MSE. The differentiable DLT layer descirbed in the paper is included but not used to calculate a loss. I found serious instability issues in using the layer. But the code is included if you want to use it. Simply replace _dummy_loss with _DLT_loss in the model.compile() call. 
 
-Note:
+**Note:**  
 Subject9 has some incorrect labels that will significantly hinder network training. Make sure to remove these wrong labeled data. Please check the S9_training_vids.txt for the list of videos that can be used for training.
 
 1. Edoardo Remelli, Shangchen Han, Sina Honari, Pascal Fua, Robert Wang. Lightweight Multi-View 3D Pose Estimation through Camera-Disentangled Representation. 	arXiv:2004.02186
