@@ -23,6 +23,10 @@ The requirements can all be installed through pip.
 -Download the trained model if you want to test.  
 -Run the train_and_test.py script. Choose train or test in the script.  
 
+**Trained Model**  
+[click here](https://drive.google.com/file/d/1AT92U-GkpdziN2Oj0J12UmmOM17G0bpE/view?usp=sharing)
+
+
 **Training**  
 The network was trained on a GTX1080Ti. It will take about 9 to 12 hours of training. You should be able to get the loss value down to 2.4~2.5 MSE. The differentiable DLT layer descirbed in the paper is included but not used to calculate a loss. I found serious instability issues in using the layer. But the code is included if you want to use it. Simply replace _dummy_loss with _DLT_loss in the model.compile() call. 
 
