@@ -25,7 +25,7 @@ The requirements can all be installed through pip.
 
 **Trained Model**  
 This model is trained on the Human3.6M data.  
-[click here](https://drive.google.com/file/d/1AT92U-GkpdziN2Oj0J12UmmOM17G0bpE/view?usp=sharing)
+[click here](https://drive.google.com/file/d/1oHM1mv1UsklYPrX1p3tolmMUAfUYmlCE/view?usp=sharing)
 
 
 **Training**  
